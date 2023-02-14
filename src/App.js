@@ -108,10 +108,10 @@ function App() {
   //console.log(Tab)
   //Tab.push( { salle: "81", étage: "8" , bloc :"B"});
   Tab.unshift({ salle: "51", étage: "5", bloc: "K" });
-  console.log(Tab)
+  //console.log(Tab)
   let ID = 1;
   const newData = Tab.map((object, index) => ({ ID: ID++, ...object }))
-  console.log(newData)
+  //console.log(newData)
   let name2 = "Jane doe";
   function getEtudiant(n) {
     return n;
